@@ -1,0 +1,39 @@
+:root {
+  --primaryTextColor: #252525;
+  --secondaryTextColor: #566573;
+  --accentColor: blue;
+  --bgColor: #ffffff;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
+  color: var(--primaryTextColor);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  
+}
+
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+label {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}

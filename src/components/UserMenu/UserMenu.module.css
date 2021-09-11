@@ -1,0 +1,26 @@
+.UserMenu {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 10px;
+}
+
+.name {
+  color: green;
+  font-weight: bold;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.MuiButtonBase-root {
+  width: 85px;
+  height: 21px;
+}
+
+.UserMenu button:hover {
+  background-color: red;
+}
+
+.UserMenu button:focus {
+  background-color: red;
+}

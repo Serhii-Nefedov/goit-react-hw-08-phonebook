@@ -1,0 +1,25 @@
+.ContactsList {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.ContactsList li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.ContactsList button {
+  margin-left: 10px;
+}
+
+.ContactsList button {
+  color: rgb(122, 118, 118);
+}
+
+.ContactsList button:hover {
+  color: rgb(56, 55, 55);
+  background-color: red;
+}
+
+.error {
+  padding-top: 20px;
+}

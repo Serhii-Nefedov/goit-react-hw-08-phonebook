@@ -1,0 +1,30 @@
+.regForm {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.regForm .name {
+  margin-bottom: 20px;
+}
+
+.regForm .email {
+  margin-bottom: 20px;
+}
+
+.regForm .password {
+  margin-bottom: 20px;
+}
+
+.regForm .button:hover {
+  color: #fff;
+  background-color: #3f51b5;
+}
+
+.regForm .button:focus {
+  color: #fff;
+  background-color: #3f51b5;
+}

@@ -1,0 +1,13 @@
+.link {
+  margin-left: 10px;
+  text-decoration: none;
+  color: #000;
+}
+
+.activeLink {
+  color: red;
+}
+
+.AuthNav {
+  margin-left: auto;
+}

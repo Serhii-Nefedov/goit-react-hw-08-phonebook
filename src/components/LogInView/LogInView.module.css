@@ -1,0 +1,27 @@
+.logIn {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: auto;
+  padding-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.logIn .email {
+  margin-bottom: 20px;
+}
+
+.logIn .password {
+  margin-bottom: 20px;
+}
+
+.logIn .button:hover {
+  color: #fff;
+  background-color: #3f51b5;
+}
+
+.logIn .button:focus {
+  color: #fff;
+  background-color: #3f51b5;
+}

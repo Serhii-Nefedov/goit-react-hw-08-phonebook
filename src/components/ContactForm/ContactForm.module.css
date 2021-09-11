@@ -1,0 +1,32 @@
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding-top: 100px;
+  padding-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contactForm .name {
+  margin-bottom: 20px;
+}
+
+.contactForm .number {
+  margin-bottom: 20px;
+}
+
+.contactForm .button {
+  color: #fff;
+  background-color: blue;
+}
+
+.contactForm .button:hover {
+  color: #fff;
+  background-color: green;
+}
+
+.contactForm .button:focus {
+  color: #fff;
+  background-color: green;
+}
