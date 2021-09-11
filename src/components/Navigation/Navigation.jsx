@@ -17,15 +17,7 @@ export default function Navigation() {
         Home
       </NavLink>
 
-      {isLoggedIn && (
-        <NavLink
-          to="/contacts"
-          className={styles.link}
-          activeClassName={styles.activeLink}
-        >
-          Contacts
-        </NavLink>
-      )}
+      
     </>
   );
 }
