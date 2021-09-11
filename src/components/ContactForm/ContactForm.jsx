@@ -93,7 +93,8 @@ export default function ContactForm() {
           value={number}
           size="small"
           label="Number"
-         
+          pattern="\+?\d{1,4}?[-.\s]?\(?\d{1,3}?\)?[-.\s]?\d{1,4}[-.\s]?\d{1,4}[-.\s]?\d{1,9}"
+          title="Номер телефона должен состоять цифр и может содержать пробелы, тире, круглые скобки и может начинаться с +"
           variant="outlined"
         />
         <Button
